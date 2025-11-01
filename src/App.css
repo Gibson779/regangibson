@@ -9,21 +9,28 @@ body {
     font-family: "Chiron Sung HK", serif;
 }
 
-.container {
-    margin: 45px 40px;
-}
 
 
-header {
+header.header-entry {
     background: #ffffff;
     display:flex;
+    justify-content:space-between;
     padding: 10px 0 0 40px;
     margin: 10px;
     color: rgb(0, 0, 0);
     height: 100px;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
 }
+
+
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    padding: 10px, 40px, 0, 10px;
+}
+
+
 
 article.image-entry {
     align-items: flex;
@@ -60,6 +67,5 @@ article.image-entry .main-one {
 
 .me-img .Me{
     padding: 50px;
-
 
 }
