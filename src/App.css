@@ -1,46 +1,73 @@
 html, body {
     margin: 0;
-    font-style: italic;
-    font-weight: 100;
-    
 }
 
-body {
-    font-family: "Chiron Sung HK", serif;
+.main-header-container {
+    font-style: italic;
+
 }
 
 
 
 header.header-entry {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
     background: #ffffff;
     display:flex;
     justify-content:space-between;
-    padding: 10px 0 0 40px;
-    margin: 10px;
+    padding: 10px;
+    margin: 10px 50px 10px 20px;
     color: rgb(0, 0, 0);
     height: 100px;
     border-radius: 15px; 
+    
+    
 }
 
+.main-header-container .header-link {
+     text-decoration: none;
+     color: black;
+    
+}
 
 
 .navbar{
     display: flex;
-    gap: 20px;
-    padding: 10px, 40px, 0, 10px;
+     gap: 20px;
+     font-optical-sizing: auto;
+     font-size: small;
+     padding: 20px 0 0 0;
+    
 }
+
+.navbar .home-link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .about-link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .contact-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 
 
 article.image-entry {
     align-items: flex;
-    padding: 0px;
     
 }
 
 article.image-entry .main-image-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   overflow: hidden;
 
@@ -67,5 +94,9 @@ article.image-entry .main-one {
 
 .me-img .Me{
     padding: 50px;
-
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+   
 }
+

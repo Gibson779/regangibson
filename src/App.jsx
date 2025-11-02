@@ -1,15 +1,25 @@
 import './App.css'
-import Header from "./components/Header"
-import Main from "./components/Main"
-import Me from "./components/Me"
+import { Routes, Route} from "react-router";
+import Navbar from "./components/Navbar"
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+
+
+
 function App() {
- 
 
   return (
       <>
-            <Header />
-           <Main />
-           <Me/>
+        
+            <Navbar/>
+            <Routes>
+              <Route path= "/" element= {<Home/>}/>
+              <Route path= "/about" element= {<About/>}/>
+              <Route path= "/contact" element= {<Contact/>}/>
+            </Routes>
+          
+           
         </> 
   )
 }
