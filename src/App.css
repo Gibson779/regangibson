@@ -56,10 +56,6 @@ header.header-entry {
 }
 
 
-
-
-
-
 article.image-entry {
     align-items: flex;
     
@@ -100,3 +96,34 @@ article.image-entry .main-one {
    
 }
 
+
+footer{
+    font-family: 'Montserrat' sans-serif;
+    padding: 20px 0 60px 40%;
+    font-weight: 100;
+    font-size: small;
+    
+}
+
+main.about-container .section-one{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+       
+}
+
+main.about-container .aboutme-heading{
+    font-size: medium;
+    font-family:  'Montserrat';
+    color: black;
+
+
+}
+
+main.about-container .image{
+    
+    width: 25%;
+    height: 25%;
+
+}

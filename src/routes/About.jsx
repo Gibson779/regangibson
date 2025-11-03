@@ -1,11 +1,19 @@
-import React from "react"
-
-const About = () => {
+export default function About() {
     return(
-        
-        <h1>About</h1>
+        <>
+        <main className="about-container">
+            <div className="section-one">
+
+
+                <h1 className="aboutme-heading">A FEW THINKGS ABOUT ME</h1>
+
+                <img className="image" src="../images/Regan Gibson.jpg" alt="AboutMe" />
+
+            </div>
+            
+        </main>
+         
+         </>
     )
+       
 }
-
-
-export default About
