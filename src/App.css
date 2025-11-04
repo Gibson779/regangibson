@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    background: #f9f2e8;
 }
 
 .main-header-container {
@@ -12,7 +13,7 @@ html, body {
 header.header-entry {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    background: #ffffff;
+    background: #f9f2e8;
     display:flex;
     justify-content:space-between;
     padding: 10px;
@@ -105,25 +106,31 @@ footer{
     
 }
 
-main.about-container .section-one{
+main.about-container{
+    padding: 0 20px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
-    padding: 50px;
+    font-family:  'Montserrat';
+    gap: 5rem;
     
        
 }
 
-main.about-container .aboutme-heading{
-    font-size: medium;
-    font-family:  'Montserrat';
-    color: black;
-
-
+.image{
+    width: 100%;
+    
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
 }
 
-main.about-container .image{
-    
-    width: 25%;
-    height: 25%;
+.text{
+    flex: 1;
+}
 
+
+.contact-page{
+    font-family: 'Montserrat';;
 }
