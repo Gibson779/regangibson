@@ -2,8 +2,8 @@ export default function Home(){
     return(
       <article className="image-entry">
         <div className="main-image-container">
-         <img className="main-one" src= "../images/wedding1.jpg" alt="wedding1" />
-         <img className="main-one" src= "../images/wedding2.jpg" alt="wedding2" />
+          <img className="main-one" src= "../images/wedding2.jpg" alt="wedding2" />
+         <img className="main-one" src= "../images/wedding.jpg" alt="wedding1" />
          <img className="main-one" src= "../images/wedding3.jpg" alt="wedding3" />
 
         </div>
