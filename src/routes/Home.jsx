@@ -2,9 +2,9 @@ export default function Home(){
     return(
       <article className="image-entry">
         <div className="main-image-container">
-         <img className="main-one" src= "../images/Bulgaria2.jpg" alt="bulgaria" />
-         <img className="main-one" src= "../images/Bulgaria.jpg" alt="Bulgaria" />
-         <img className="main-one" src= "../images/lagos.jpg" alt="Lagos" />
+         <img className="main-one" src= "../images/wedding1.jpg" alt="wedding1" />
+         <img className="main-one" src= "../images/wedding2.jpg" alt="wedding2" />
+         <img className="main-one" src= "../images/wedding3.jpg" alt="wedding3" />
 
         </div>
 
