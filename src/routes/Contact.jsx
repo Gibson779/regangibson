@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -22,10 +23,38 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // This is where you would process the form data (send to an API or email service)
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
-    setFormData({ name: '', email: '', message: '' });
-  };
+    
+
+    const serviceID = "service_u08coig";
+    const templateID = "template_kdmpxmp";
+    const publicKey = "1zxY_3xSUSZQAPoHh";
+
+emailjs
+  .send(
+  "service_u08coig",
+  "template_kdmpxmp",
+  {
+    from_name: formData.name,
+    from_email: formData.email,
+    message: formData.message,
+    reply_to: formData.email,
+  },
+  "1zxY_3xSUSZQAPoHh"
+  )
+  
+  .then((result) => {
+    console.log("Email sent:", result.text);
+    setIsSubmitted(true); // show success message
+    setFormData({ name: '', email: '', message: '' }); // clear the form
+  })
+  .catch((error) => {
+    console.error("Email send error:", error.text);
+
+  });
+};
+
+
+
 
   return (
     <div className="contact-page" style={styles.pageContainer}>
@@ -133,10 +162,10 @@ const styles = {
     transition: 'background-color 0.3s',
   },
   submitButtonHover: {
-    backgroundColor: '#45a049',
+    backgroundColor: '#000000ff',
   },
   successMessage: {
-    color: '#4CAF50',
+    color: '#000000ff',
     fontSize: '16px',
     marginTop: '20px',
   },
