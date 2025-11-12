@@ -10,7 +10,7 @@ const Contact = () => {
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // Handle form field change
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -19,10 +19,10 @@ const Contact = () => {
     });
   };
 
-  // Handle form submission (this is just a placeholder)
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-    // This is where you would process the form data (send to an API or email service)
+    
     
 
     const serviceID = "service_u08coig";
@@ -103,9 +103,9 @@ emailjs
         {isSubmitted && <p style={styles.successMessage}>Thank you for contacting us! We'll get back to you soon.</p>}
       </form>
 
-      <div style={styles.contactInfo}>
-        <p><strong>Email:</strong> regangib@btinternet.com</p>
-        <p><strong>Phone:</strong> 07858783353</p>
+      <div className='contact-info' style={styles.contactInfo}>
+        <p ><strong>Email:</strong> regangib@btinternet.com </p>
+        <p><strong>Phone:</strong> 07858783353 </p>
       </div>
     </div>
   );
@@ -172,6 +172,7 @@ const styles = {
   contactInfo: {
     marginTop: '30px',
     textAlign: 'center',
+    
   },
 };
 

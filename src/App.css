@@ -136,3 +136,9 @@ main.about-container{
     font-weight: 100;
 }
 
+.contact-info{
+    font-family: 'Montserrat';
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+
+}
