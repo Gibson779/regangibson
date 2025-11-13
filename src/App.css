@@ -100,9 +100,11 @@ article.image-entry .main-one {
 
 footer{
     font-family: 'Montserrat' sans-serif;
-    padding: 20px 0 60px 40%;
+    padding: 20px 40% 60px 40%;
     font-weight: 100;
     font-size: small;
+    text-align: center;
+    
     
 }
 
