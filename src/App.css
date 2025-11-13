@@ -98,13 +98,13 @@ article.image-entry .main-one {
 }
 
 
-footer{
+.copyright{
     font-family: 'Montserrat' sans-serif;
     padding: 20px 40% 60px 40%;
     font-weight: 100;
     font-size: small;
     text-align: center;
-    
+   
     
 }
 
@@ -143,4 +143,14 @@ main.about-container{
     color: rgb(0, 0, 0);
     font-weight: 400;
 
+}
+
+li{
+    
+   list-style: none;
+}
+
+main.links{
+
+    
 }
