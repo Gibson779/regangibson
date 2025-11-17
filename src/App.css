@@ -116,15 +116,7 @@ article.image-entry .main-one {
 }
 
 
-.copyright{
-    font-family: 'Montserrat' sans-serif;
-    padding: 20px 40% 60px 40%;
-    font-weight: 100;
-    font-size: small;
-    text-align: center;
-   
-    
-}
+
 
 main.about-container{
     padding: 0 20px;
@@ -168,6 +160,17 @@ li{
    list-style: none;
 }
 
-.links{
-    padding: 20px 40% 0px 40%;
+
+
+
+footer{
+
+     font-family: 'Montserrat' sans-serif;
+   
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
+   
+
+
 }
