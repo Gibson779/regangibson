@@ -10,11 +10,12 @@ export default function Footer() {
                     <li>Contact</li>
                 </ul>
             </div>
+        
             <div className="copyright">
 
             <p> © copyright 2025 Regan Gibson  All Rights Reserved. </p>
             
-            <p>Developer Regan Gibosn</p>
+            <p> Developer Regan Gibosn</p>
 
             </div>
 

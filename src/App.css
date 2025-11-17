@@ -38,7 +38,7 @@ header.header-entry {
 
 .navbar{
     display: flex;
-     gap: 20px;
+     gap: 10px;
      font-optical-sizing: auto;
      font-size: small;
      padding: 20px 0 0 0;
@@ -99,12 +99,15 @@ article.image-entry .main-one {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
 }
 
 .me-img .regan{
-    width: 500px;
-    height: 500px;
+    object-fit: cover;
+    width: 70%;
+    height: 70%;
     padding: 50px;
+ 
 }
 
 .me-img .me{
@@ -165,12 +168,9 @@ li{
 
 footer{
 
-     font-family: 'Montserrat' sans-serif;
-   
+    font-family: 'Montserrat' sans-serif;
     font-weight: 100;
     font-size: small;
     text-align: center;
    
-
-
 }
