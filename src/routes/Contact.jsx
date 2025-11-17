@@ -172,8 +172,13 @@ const styles = {
   contactInfo: {
     marginTop: '30px',
     textAlign: 'center',
+
     
   },
+
+  
 };
+
+
 
 export default Contact;
