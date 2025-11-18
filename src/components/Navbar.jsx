@@ -10,12 +10,16 @@ export default function Navbar(){
     setMenuOpen(prevState => !prevState);
   };
 
+   const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
 
     return(
       <>
       <header className="header-entry">
         <div className="main-header-container">
-          <Link to="/" className="header-link"> 
+          <Link to="/" className="header-link" > 
         <h1>REGAN GIBSON</h1>
         </Link>
         </div>
@@ -23,13 +27,13 @@ export default function Navbar(){
 
 
           <div className={`navbar ${menuOpen ? "open" : ""}`}>
-            <Link to="/" className="home-link">
+            <Link to="/" className="home-link" onClick={closeMenu}>
             <h1>Home</h1>
             </Link>
-             <Link to="/about" className="about-link">
+             <Link to="/about" className="about-link" onClick={closeMenu}>
              <h1>About</h1>
              </Link>
-              <Link to="/contact" className="contact-link">
+              <Link to="/contact" className="contact-link" onClick={closeMenu}>
              <h1>Contact</h1>
              </Link>
           </div>
