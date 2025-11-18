@@ -28,10 +28,11 @@ header.header-entry {
 }
 
 .main-header-container h1 {
-  font-size: 2rem;
+  font-size: 3dvh;
   margin: 0;
   color: black;
-  padding-top: 30px;
+  padding-top: 10px;
+  
   
   
 }
