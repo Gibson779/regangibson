@@ -84,6 +84,7 @@ header.header-entry {
 
   .navbar.open {
     display: flex;
+    background: #f9f2e8;
   }
 
   .navbar a {
@@ -208,16 +209,45 @@ main.about-container{
     font-weight: 400;
 }
 
-li{
-    
-   list-style: none;
-}
 
 footer{
 
-    font-family: 'Montserrat' sans-serif;
-    font-weight: 100;
-    font-size: small;
-    text-align: center;
-   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;                  
+   padding: 20px;
+    
 }
+
+.links{
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 30px;   
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-link p {
+  margin: 0;               
+  font-size: 20px;         
+  text-align: center;
+}
+
+
+
+
+.copyright {
+  text-align: center;      
+  font-size: 14px;
+  opacity: 0.8;            
+}
+
+.copyright p {
+  margin: 3px 0;          
+}
+

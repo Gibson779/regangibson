@@ -1,14 +1,23 @@
+import { Link } from "react-router-dom"
+
 export default function Footer() {
     return(
+        <>
         <footer >
-            <>
-
+             
             <div className="links">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+            <Link to="/" className="footer-link">
+            <p>Home</p>
+            </Link>
+            <Link to="/about" className="footer-link">
+             <p>About</p>
+             </Link>
+              <Link to="/contact" className="footer-link">
+             <p>Contact</p>
+             </Link>
+          
+            
+                    
             </div>
         
             <div className="copyright">
@@ -18,10 +27,11 @@ export default function Footer() {
             <p> Developer Regan Gibosn</p>
 
             </div>
+           
 
-            </>
+            
         </footer>
-        
+        </>
     )
 }
 
